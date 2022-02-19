@@ -1,29 +1,10 @@
 class modalCom extends HTMLElement {
     constructor() {
         super();
-        this.flagPais;
-        this.namePais;
-        this.capitalPais;
-        this.poblacionPais;
-    }
-
-    static get observedAttributes() {
-        return ['flagpais', 'namepais', 'capitalpais', 'regionpais', 'subregionpais', 'poblacionpais']
-    }
-
-    attributeChangedCallback(nameAtr, oldValue, newValue) {
-
-        switch (nameAtr) {
-            case "titlemodal":
-                this.flagPais = newValue;
-                break;
-            case "bodymodal":
-                this.namePais = newValue;
-                break;
-
-        }
 
     }
+
+
 
     connectedCallback() {
         this.template = `
