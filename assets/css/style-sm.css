@@ -1,0 +1,100 @@
+@import url('modal.css');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.top{
+    background-color: #223d4a;
+    color: white;
+    padding: 10px 50px;   
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.header{
+    background-color:  #dce5e9;
+    padding: 10px 50px;
+    
+   
+}
+
+.header > h1{
+     font-weight: 400;
+     font-size: 1.8rem;
+}
+
+#content{
+    background-color: white;
+    padding: 0px;
+}
+
+.footer{
+    background-color:  #dce5e9;
+    position: relative;
+    bottom:0;
+    width: 100%;
+}
+
+.footer > p{
+    padding: 10px 50px;
+}
+
+.bottom{
+    background-color: #223d4a;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.bottom > p{
+    padding: 10px 50px;
+}
+
+.bottom a{
+    text-decoration: none;
+    color: #dce5e9;
+}
+
+.card {
+    background-color: #efefef;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card > .title{
+    background-color: #c3cbcf ;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    color: #182a32;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 2vw;
+}
+
+.card > .title > .imgFlag{
+    max-width: 20%;
+    border-radius: 10px;
+}
+
+.card > .body{
+     padding: 20px;
+}
+
+.card > .body > ul > li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 3vw;
+}
+
+.grid {
+  display: grid;
+  row-gap: 10px;
+  grid-template-columns: 50% 50% ;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
